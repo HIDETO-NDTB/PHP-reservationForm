@@ -4,7 +4,7 @@
   <div class="header-container">
     <a href="index.php"><img src="img/home-icon.png" alt="" class="home-img"></a>
     <div class="header-center">
-      <p>こちらは予約フォームのダミーであり、実際のサービスを提供するものではありません。</p>
+      <p class="execuse">こちらは予約フォームのダミーであり、実際のサービスを提供するものではありません。</p>
     </div>
     <div class="header-right">
      <?php if(!isLogin()): ?>

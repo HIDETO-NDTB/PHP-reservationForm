@@ -36,6 +36,9 @@ img.home-img:hover {
 }
 .header-center{
     text-align: center;
+}
+p.execute{
+    font-size: 14px;
     color: red;
 }
 .header-right {
