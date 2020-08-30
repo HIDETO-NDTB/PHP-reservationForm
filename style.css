@@ -34,6 +34,10 @@ img.home-img:hover {
     cursor: pointer;
     opacity: 0.5;
 }
+.header-center{
+    text-align: center;
+    color: red;
+}
 .header-right {
     float: right;
 }
