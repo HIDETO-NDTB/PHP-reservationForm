@@ -67883,3 +67883,143 @@ Stack trace:
 )
 
 [29-Aug-2020 11:04:54 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:03:49 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:03:49 UTC] デバッグ：セッションID：u6p6hr77bat4m0jpemteno57q5
+[30-Aug-2020 11:03:49 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:03:49 UTC] デバッグ：現在日時：1598785429
+[30-Aug-2020 11:03:49 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:03:49 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:03:49 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:03:49 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:03:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 28
+[30-Aug-2020 11:03:49 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:03:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 56
+[30-Aug-2020 11:04:53 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:04:53 UTC] デバッグ：セッションID：blv7ti60uqc7hbnfmi5ba33uiu
+[30-Aug-2020 11:04:53 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:04:53 UTC] デバッグ：現在日時：1598785493
+[30-Aug-2020 11:04:53 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:04:53 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:04:53 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:04:53 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:04:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 28
+[30-Aug-2020 11:04:53 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:04:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 56
+[30-Aug-2020 11:07:55 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:07:55 UTC] デバッグ：セッションID：5oipobk1d9fu2i785f25hpbk08
+[30-Aug-2020 11:07:55 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:07:55 UTC] デバッグ：現在日時：1598785675
+[30-Aug-2020 11:07:55 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:07:55 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:07:55 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:07:55 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:07:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 31
+[30-Aug-2020 11:07:55 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:07:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 59
+[30-Aug-2020 11:09:01 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:09:01 UTC] デバッグ：セッションID：v7idk74t4ddljhk2u79k0nnr60
+[30-Aug-2020 11:09:01 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:09:01 UTC] デバッグ：現在日時：1598785741
+[30-Aug-2020 11:09:01 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:09:01 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:09:01 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:09:01 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:09:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:09:01 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:09:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:10:49 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:10:49 UTC] デバッグ：セッションID：bo4io4vls9l0jl2oq69f72qijc
+[30-Aug-2020 11:10:49 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:10:49 UTC] デバッグ：現在日時：1598785849
+[30-Aug-2020 11:10:49 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:10:49 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:10:49 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:10:49 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:10:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:10:49 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:10:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:11:37 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:11:37 UTC] デバッグ：セッションID：pvbj93mm19kmpuqchvmso08kkk
+[30-Aug-2020 11:11:37 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:11:37 UTC] デバッグ：現在日時：1598785897
+[30-Aug-2020 11:11:37 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:11:37 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:11:37 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:11:37 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:11:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:11:37 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:11:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:14:44 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:14:44 UTC] デバッグ：セッションID：30q1vknrgk6ucdv062q2andren
+[30-Aug-2020 11:14:44 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:14:44 UTC] デバッグ：現在日時：1598786084
+[30-Aug-2020 11:14:44 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:14:44 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:14:44 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:14:44 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:14:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:14:44 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:14:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:17:55 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:17:55 UTC] デバッグ：セッションID：pibufp4mk8uvvr1dof8lt26r8q
+[30-Aug-2020 11:17:55 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:17:55 UTC] デバッグ：現在日時：1598786275
+[30-Aug-2020 11:17:55 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:17:55 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:17:55 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:17:55 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:17:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:17:55 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:17:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:18:11 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:18:11 UTC] デバッグ：セッションID：rul9hen69qebf63b67s6pa0gk5
+[30-Aug-2020 11:18:11 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:18:11 UTC] デバッグ：現在日時：1598786291
+[30-Aug-2020 11:18:11 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:18:11 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:18:11 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:18:11 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:18:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:18:11 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:18:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:18:35 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:18:35 UTC] デバッグ：セッションID：ag6esgvd058a0e9tsae2r4606e
+[30-Aug-2020 11:18:35 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:18:35 UTC] デバッグ：現在日時：1598786315
+[30-Aug-2020 11:18:35 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOPページ
+[30-Aug-2020 11:18:35 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:18:35 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:18:35 UTC] デバッグ：shopの中身
+[30-Aug-2020 11:18:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
+[30-Aug-2020 11:18:35 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:18:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58

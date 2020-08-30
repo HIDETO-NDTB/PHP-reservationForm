@@ -34,13 +34,6 @@ img.home-img:hover {
     cursor: pointer;
     opacity: 0.5;
 }
-.header-center{
-    text-align: center;
-}
-p.excuse{
-    font-size: 14px;
-    color: red;
-}
 .header-right {
     float: right;
 }
@@ -63,6 +56,18 @@ main.main-container{
     width: 960px;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+div.center-area{
+    text-align: center;
+    position: relative;
+}
+h2.excuse{
+    font-size: 18px;
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
 }
 #top-img {
     max-width: 960px;

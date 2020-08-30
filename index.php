@@ -16,9 +16,11 @@
       <div class="suc-msg js-suc-msg"><?php if(!empty($_SESSION['suc_msg'])){ echo $_SESSION['suc_msg'];} ?></div>
       
       <?php sessionOnce('suc_msg'); ?>
-      
      
       <main class="main-container">
+          <div class="center-area">
+            <h2 class="excuse">こちらは予約フォームのダミーであり、実際のサービスを提供するものではありません。</h2>
+          </div>
           <div class="container">
               <img src="img/freedom_ogp.png" alt="" id="top-img">
           </div>

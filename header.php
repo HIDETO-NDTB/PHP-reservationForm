@@ -3,9 +3,6 @@
  <header class="header">
   <div class="header-container">
     <a href="index.php"><img src="img/home-icon.png" alt="" class="home-img"></a>
-    <div class="header-center">
-      <p class="excuse">こちらは予約フォームのダミーであり、実際のサービスを提供するものではありません。</p>
-    </div>
     <div class="header-right">
      <?php if(!isLogin()): ?>
        <a href="login.php"><button class="auth-btn">ログイン</button></a>
