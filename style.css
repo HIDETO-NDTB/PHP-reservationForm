@@ -1,15 +1,25 @@
-body,h1,h2,h3,h4,h5,h6,p {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
 }
+
 th {
     font-weight: normal;
     padding: 0;
     height: 40px;
 }
+
 a {
     text-decoration: none !important;
 }
+
 body.page-1colum {
     width: 100%;
     background: #F5F5F5;
@@ -20,6 +30,7 @@ body.page-1colum {
     width: 100%;
     background: #ffffff;
 }
+
 .header-container {
     width: 960px;
     margin: 0 auto;
@@ -27,16 +38,20 @@ body.page-1colum {
     overflow: hidden;
     padding: 10px 20px;
 }
+
 img.home-img {
     width: 40px;
 }
+
 img.home-img:hover {
     cursor: pointer;
     opacity: 0.5;
 }
+
 .header-right {
     float: right;
 }
+
 button.auth-btn {
     width: 100px;
     height: 40px;
@@ -46,22 +61,25 @@ button.auth-btn {
     background: #60c3ec;
     border: none;
 }
+
 button.auth-btn:hover {
     cursor: pointer;
     background: #5D87B7;
 }
 
 /*main*/
-main.main-container{
+main.main-container {
     width: 960px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
-div.center-area{
+
+div.center-area {
     text-align: center;
     position: relative;
 }
-h2.excuse{
+
+h2.excuse {
     font-size: 18px;
     color: red;
     position: absolute;
@@ -69,51 +87,62 @@ h2.excuse{
     left: 0;
     right: 0;
 }
+
 #top-img {
     max-width: 960px;
     margin-top: 20px;
 }
+
 .select-part {
     margin-top: 20px;
     background: #ffffff;
 }
+
 h3.card-header {
     padding: 10px 10px;
     font-size: 16px;
     border-bottom: 2px solid #00BFFF;
 }
+
 table.shop-table {
     padding: 0 20px;
 }
+
 .shop-list {
     width: 850px;
     height: 40px;
     border-bottom: 1px solid #D3D3D3;
 }
+
 .shop-btn {
     width: 70px;
     height: 40px;
     border-bottom: 1px solid #D3D3D3;
 }
+
 .shop-area {
     width: 840px;
     height: 40px;
     position: absolute;
 }
+
 .shop-area:hover {
     background: #FFA07A;
     opacity: 0.2;
     cursor: pointer;
 }
+
 .detail-btn {
     float: right;
     background: #ffffff;
     border: 1px solid #D3D3D3;
     padding: 3px 18px;
 }
-.detail-btn:hover{
+
+.detail-btn:hover {
     cursor: pointer;
 }
+
 table.table-time {
     padding: 10px 20px;
     width: 960px;
@@ -121,34 +150,41 @@ table.table-time {
     box-sizing: border-box;
     border-spacing: unset;
 }
-input.js-select-shop, .js-select-menu{
+
+input.js-select-shop,
+.js-select-menu {
     display: none;
 }
+
 .table-time th {
     border: 1px solid #dee2e6;
 }
+
 .footer {
     width: 100%;
     height: 60px;
     background: #696969;
 }
+
 .footer-container {
     width: 960px;
     margin: 0 auto;
     text-align: center;
     padding: 18px 0;
 }
+
 .footer-content {
     color: #ffffff;
     font-size: 16px;
     margin-right: 20px;
 }
+
 .footer-content:last-child {
     margin-right: 0;
 }
 
 /*register.php*/
-main.sub-container{
+main.sub-container {
     box-sizing: border-box;
     width: 960px;
     margin: 0 auto;
@@ -158,6 +194,7 @@ main.sub-container{
     background: #ffffff;
     overflow: hidden;
 }
+
 h4.sub-header {
     padding: 5px 5px;
     font-size: 16px;
@@ -165,6 +202,7 @@ h4.sub-header {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 span.badge {
     font-size: 12px;
     padding: 4px 4px;
@@ -172,17 +210,21 @@ span.badge {
     margin-right: 10px;
     border-radius: 2px;
 }
+
 h5.title {
     padding: 5px 5px;
     font-size: 16px;
     margin-top: 5px;
 }
+
 span.badge.badge-req {
     background: #D17565;
 }
+
 span.badge.badge-noreq {
     background: #ecb666;
 }
+
 input.long-text {
     padding: 8px;
     border: 1px solid #C3C3C3;
@@ -190,16 +232,19 @@ input.long-text {
     height: 40px;
     margin: 3px 0;
 }
+
 p.validation {
     font-size: 12px;
     color: #808080;
     margin-left: 5px;
 }
-div.btn-area{
+
+div.btn-area {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
+
 input.submit-btn {
     width: 300px;
     height: 50px;
@@ -209,15 +254,18 @@ input.submit-btn {
     background: #60c3ec;
     border-radius: 3px;
 }
+
 input.submit-btn:hover {
     cursor: pointer;
     background: #5D87B7;
 }
+
 span.err-area {
     margin-left: 15px;
     font-weight: normal;
     color: red;
 }
+
 input.long-text.err {
     background: #EAC3C3;
     opacity: 0.5;
@@ -228,7 +276,7 @@ input.long-text.err {
 div.suc-msg {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 0;
     width: 100%;
     height: 40px;
     text-align: center;
@@ -250,53 +298,63 @@ p.reminder {
 div.link-area {
     line-height: 40px;
 }
+
 div.unlink-area {
     line-height: 40px;
 }
-div.link-area a{
+
+div.link-area a {
     height: 40px;
     display: block;
     color: #2266DD;
     font-size: 18px;
     font-weight: bold;
 }
-div.unlink-area a{
+
+div.unlink-area a {
     height: 40px;
     display: block;
     color: black;
     background: #EEEEEE;
     pointer-events: none;
 }
-div.discription{
+
+div.discription {
     overflow: hidden;
 }
-p.discription{
+
+p.discription {
     float: left;
     margin-left: 20px;
     margin-bottom: 10px;
 }
-a.discription{
+
+a.discription {
     float: left;
     margin-left: 20px;
     margin-bottom: 10px;
     color: #2266DD;
 }
-span.ok, span.ng{
+
+span.ok,
+span.ng {
     margin-right: 5px;
 }
-span.ok{
+
+span.ok {
     color: #2266DD;
     font-weight: bold;
 }
 
 /*reserve.php*/
-h6.confirm{
+h6.confirm {
     font-size: 16px;
     margin: 5px;
     padding: 5px 10px;
     border: 1px solid gray;
     font-weight: normal;
 }
-input.back-btn{
+
+input.back-btn {
     margin-right: 20px;
 }
