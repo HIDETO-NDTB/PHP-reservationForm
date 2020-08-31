@@ -68023,3 +68023,40 @@ Stack trace:
 [30-Aug-2020 11:18:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 30
 [30-Aug-2020 11:18:35 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
 [30-Aug-2020 11:18:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/PHP_Reservation_Form/index.php on line 58
+[30-Aug-2020 11:36:09 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:36:09 UTC] デバッグ：セッションID：setbmngvn6urmpkdco1u8rsrg4
+[30-Aug-2020 11:36:09 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:36:09 UTC] デバッグ：現在日時：1598787369
+[30-Aug-2020 11:36:09 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ログインページ
+[30-Aug-2020 11:36:09 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:36:09 UTC] デバッグ：ログインチェック：未ログインユーザーでした。
+[30-Aug-2020 11:36:09 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:36:18 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:36:18 UTC] デバッグ：セッションID：k61j31kpckqi4hq6eqrq20812t
+[30-Aug-2020 11:36:18 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:36:18 UTC] デバッグ：現在日時：1598787378
+[30-Aug-2020 11:36:18 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ログインページ
+[30-Aug-2020 11:36:18 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:36:18 UTC] デバッグ：ログインチェック：未ログインユーザーでした。
+[30-Aug-2020 11:36:18 UTC] デバッグ：ログインのPOST送信がありました。
+[30-Aug-2020 11:36:18 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:36:18 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:36:26 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示開始
+[30-Aug-2020 11:36:26 UTC] デバッグ：セッションID：0st9s8hgetso70t5g2eobf5n79
+[30-Aug-2020 11:36:26 UTC] デバッグ：セッションの中身：Array
+(
+)
+
+[30-Aug-2020 11:36:26 UTC] デバッグ：現在日時：1598787386
+[30-Aug-2020 11:36:26 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ログインページ
+[30-Aug-2020 11:36:26 UTC] デバッグ：ログインしていません。
+[30-Aug-2020 11:36:26 UTC] デバッグ：ログインチェック：未ログインユーザーでした。
+[30-Aug-2020 11:36:26 UTC] デバッグ：ログインのPOST送信がありました。
+[30-Aug-2020 11:36:26 UTC] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'be25fc14654a4c'@'localhost' (using password: YES)
+[30-Aug-2020 11:36:26 UTC] デバッグ：ログインしていません。
