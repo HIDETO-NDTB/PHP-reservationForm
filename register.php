@@ -83,7 +83,6 @@
                   $err_msg['common'] = '会員登録に失敗しました。';
               }
           } catch (Exception $e) {
-              echo 'エラー';
               error_log('エラー発生；'. $e->getMessage());
               debug('エラーSQL:'.$sql);
           }
