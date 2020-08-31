@@ -222,7 +222,6 @@ function queryPost($dbh, $sql, $data)
     if (!$stmt->execute($data)) {
         debug('クエリに失敗しました。');
         debug('失敗したクエリ' .$sql);
-        echo 'エラー発生'.$sql;
         return 0;
     }
     return $stmt;
