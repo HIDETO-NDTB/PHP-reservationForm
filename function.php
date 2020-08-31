@@ -195,11 +195,9 @@ function validEmailDup($str, $key)
 function dbConnect()
 {
     // DBへの接続準備
-    $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-    $db['dbname'] = ltrim($db['path'], '/');
-    $dsn = "mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_8e6b658c950f637;charset=utf8";
-    $user = $db['user'];
-    $password = $db['pass'];
+    $dsn = 'mysql:dbname=heroku_8e6b658c950f637;host:=us-cdbr-east-02.cleardb.com;charset=utf8';
+    $user = 'be25fc14654a4c';
+    $password = '16ea7f8a';
     $options = array(
         // SQL実行失敗時にはエラーコードのみ設定
         PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT,
