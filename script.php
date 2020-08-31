@@ -30,7 +30,7 @@
                       url: "ajax-menu.php",
                       data: {selectShop : shopId}
                   }).done(function(data){
-                      console.log('Ajax成功です。:');
+                      // console.log('Ajax成功です。:');
                       $('#ajaxreload').html(data);
                       
                       // 一旦全てのマークを▶︎に戻す
@@ -39,7 +39,7 @@
                       $shopMark.children('img').attr('src','img/check-icon.png');
                       
                   }).fail(function(msg){
-                      console.log('Ajax失敗。');
+                      // console.log('Ajax失敗。');
                   });
               });          
               
@@ -63,14 +63,14 @@
                       url: "ajax-reservation.php",
                       data: {selectShop : shopId, selectMenu : menuId}
                   }).done(function(data){
-                      console.log('Ajax2成功です。');
+                      // console.log('Ajax2成功です。');
                       $('#ajaxReservationReload').html(data);
                       // 一旦全てのマークを▶︎に戻す
                       $('.menu-mark').children('img').attr('src', 'img/triangle.png');
                       // チェックされたものだけ ✔︎ マークにする
                       $menuMark.children('img').attr('src', 'img/check-icon.png');
                   }).fail(function(msg){
-                      console.log('Ajax2失敗。');
+                      // console.log('Ajax2失敗。');
                   }); 
               });
               
