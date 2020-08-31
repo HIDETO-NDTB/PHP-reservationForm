@@ -254,9 +254,16 @@ function sendMail($from, $to, $subject, $comment)
 // ====================================
 
 // 今日の3日後を取得(1/1)
+// function getWeekStart()
+// {
+//     $rst = date('n/j', strtotime("+3 day", strtotime("today")));
+//     return $rst;
+// }
+
+// 閲覧用に日付を20200901で固定
 function getWeekStart()
 {
-    $rst = date('n/j', strtotime("+3 day", strtotime("today")));
+    $rst = date('n/j', 20200901);
     return $rst;
 }
 // カレンダー表示用(1/1)
@@ -265,12 +272,21 @@ function getCalendar($day, $plus)
     $rst = date('n/j', strtotime("$day + $plus day"));
     return $rst;
 }
+
 // 今日の3日後を取得(2020-01-01)
+// function getDataWeekStart()
+// {
+//     $rst = date('Y-m-d', strtotime("+3 day", strtotime("today")));
+//     return $rst;
+// }
+
+// 閲覧用に日付固定
 function getDataWeekStart()
 {
-    $rst = date('Y-m-d', strtotime("+3 day", strtotime("today")));
+    $rst = date('Y-m-d', 20200901);
     return $rst;
 }
+
 // データ取得用(2020-01-01)
 function getDataWeek($day, $plus)
 {

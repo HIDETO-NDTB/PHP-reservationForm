@@ -78,8 +78,7 @@
             <h3 class="card-header">予約日時を選択</h3>
             
             <?php
-                //$weekStart = getWeekStart();
-                $weekStart = getWeekStart(20200901);
+                $weekStart = getWeekStart();
             ?>
             
           <div id="ajaxReservationReload">
