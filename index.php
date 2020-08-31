@@ -13,9 +13,7 @@
     debug('shopの中身'.print_r($shops, true));
 
 ?>
-      <div class="suc-msg js-suc-msg"><?php if (!empty($_SESSION['suc_msg'])) {
-    echo sessionOnce('suc_msg');
-} ?></div>
+      <div class="suc-msg js-suc-msg"><?php echo sessionOnce('suc_msg'); ?></div>
      
       <main class="main-container">
           <div class="center-area">
