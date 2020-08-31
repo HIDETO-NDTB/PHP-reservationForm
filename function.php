@@ -263,7 +263,7 @@ function sendMail($from, $to, $subject, $comment)
 // 閲覧用に日付を20200901で固定
 function getWeekStart()
 {
-    $rst = date('n/j', 20200901);
+    $rst = date('n/j', '20200901');
     return $rst;
 }
 // カレンダー表示用(1/1)
@@ -283,7 +283,7 @@ function getCalendar($day, $plus)
 // 閲覧用に日付固定
 function getDataWeekStart()
 {
-    $rst = date('Y-m-d', 20200901);
+    $rst = date('Y-m-d', '20200901');
     return $rst;
 }
 
