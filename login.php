@@ -73,8 +73,6 @@
 ?>
 
 <div class="suc-msg js-suc-msg"><?php echo sessionOnce('suc_msg'); ?></div>
-      
-      <?php sessionOnce('suc_msg'); ?>
 
 <main class="sub-container">
     <form action="" method="post">
