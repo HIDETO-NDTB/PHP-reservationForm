@@ -348,6 +348,7 @@ function sessionOnce($key)
         $data = $_SESSION[$key];
         $_SESSION[$key] = '';
         return $data;
+        $data = '';
     }
 }
 
