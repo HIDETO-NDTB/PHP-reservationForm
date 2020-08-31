@@ -79,7 +79,6 @@
             
             <?php
                 $weekStart = getWeekStart();
-                echo strtotime("today");
             ?>
             
           <div id="ajaxReservationReload">
