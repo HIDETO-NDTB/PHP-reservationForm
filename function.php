@@ -345,7 +345,9 @@ function isLogin()
 function sessionOnce($key)
 {
     if (!empty($_SESSION[$key])) {
+        $date = $_SESSION[$key];
         $_SESSION[$key] = '';
+        return $data;
     }
 }
 

@@ -13,9 +13,9 @@
     debug('shopの中身'.print_r($shops, true));
 
 ?>
-      <div class="suc-msg js-suc-msg"><?php if(!empty($_SESSION['suc_msg'])){ echo $_SESSION['suc_msg'];} ?></div>
-      
-      <?php sessionOnce('suc_msg'); ?>
+      <div class="suc-msg js-suc-msg"><?php if (!empty($_SESSION['suc_msg'])) {
+    echo sessionOnce('suc_msg');
+} ?></div>
      
       <main class="main-container">
           <div class="center-area">
@@ -27,7 +27,7 @@
           <div class="select-part">
             <h3 class="card-header">店舗を選択</h3>
             
-            <?php foreach($shops as $key => $val): ?>
+            <?php foreach ($shops as $key => $val): ?>
             <table class="shop-table">
               <tbody>
                 <tr>
@@ -55,7 +55,7 @@
             ?>
             
             <div id="ajaxreload">
-            <?php foreach($menus as $key => $val): ?>
+            <?php foreach ($menus as $key => $val): ?>
             
               <table class="shop-table js-view-menu">
               <tbody>
@@ -80,7 +80,7 @@
             <h3 class="card-header">予約日時を選択</h3>
             
             <?php
-                $weekStart = getWeekStart();    
+                $weekStart = getWeekStart();
             ?>
             
           <div id="ajaxReservationReload">
