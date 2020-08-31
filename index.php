@@ -79,7 +79,7 @@
             
             <?php
                 //$weekStart = getWeekStart();
-                $weekStart = 9/1;
+                $weekStart = getWeekStart(20200901);
             ?>
             
           <div id="ajaxReservationReload">
