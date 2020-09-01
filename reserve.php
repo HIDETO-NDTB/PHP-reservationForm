@@ -72,7 +72,7 @@
         <h4 class="sub-header">会員情報</h4>
         
         <h5 class="title">ログインID</h5>
-        <h6 class="confirm">ndtb</h6>
+        <h6 class="confirm"><?php echo $_SESSION['user_id']; ?></h6>
         
         <div class="btn-area">
         

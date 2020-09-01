@@ -13,7 +13,7 @@
             
 ?>
 
-<?php foreach($menus as $key => $val): ?>
+<?php foreach ($menus as $key => $val): ?>
             
     <table class="shop-table js-view-menu">
         <tbody>
@@ -22,12 +22,12 @@
                   <img src="img/triangle.png" alt="">
                 </td>
                 <td class="shop-list">
-                  <input type="radio" id="menu<?php echo $val['id']; ?>" name="menu" value="<?php echo $val['id']; ?>" class="js-select-menu" data-menuid="<?php echo $val['id']; ?>"><?php echo $val['menu_name']; ?>
+                  <input type="radio" id="menu<?php echo $val['id']; ?>" name="menu" value="<?php echo sanitizeHtml($val['id']); ?>" class="js-select-menu" data-menuid="<?php echo sanitizeHtml($val['id']); ?>"><?php echo sanitizeHtml($val['menu_name']); ?>
                 </td>
                 <td class="shop-btn">
                   <button class="detail-btn">詳細</button>
                 </td>
-                <label for="menu<?php echo $val['id']; ?>" class="shop-area"></label>
+                <label for="menu<?php echo sanitizeHtml($val['id']); ?>" class="shop-area"></label>
             </tr>
         </tbody>
     </table>
@@ -37,7 +37,7 @@
 <h3 class="card-header">予約日時を選択</h3>
 
 <?php
-    $weekStart = getWeekStart();    
+    $weekStart = getWeekStart();
 ?>
             
 <div id="ajaxReservationReload">

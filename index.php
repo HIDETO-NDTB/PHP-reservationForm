@@ -33,12 +33,12 @@
                     <img src="img/triangle.png" alt="">
                   </td>
                   <td class="shop-list">
-                    <input type="radio" id="shop<?php echo $val['id']; ?>" name="shop" value="<?php echo $val['id']; ?>" class="js-select-shop" data-shopid="<?php echo $val['id']; ?>"><?php echo $val['shop_name']; ?>
+                    <input type="radio" id="shop<?php echo sanitizeHtml($val['id']); ?>" name="shop" value="<?php echo sanitizeHtml($val['id']); ?>" class="js-select-shop" data-shopid="<?php echo sanitizeHtml($val['id']); ?>"><?php echo sanitizeHtml($val['shop_name']); ?>
                   </td>
                   <td class="shop-btn">
                     <button class="detail-btn">詳細</button>
                   </td>
-                  <label for="shop<?php echo $val['id']; ?>" class="shop-area"></label>
+                  <label for="shop<?php echo sanitizeHtml($val['id']); ?>" class="shop-area"></label>
                 </tr>
               </tbody>
             </table>
@@ -62,12 +62,12 @@
                     <img src="img/triangle.png" alt="">
                   </td>
                   <td class="shop-list">
-                    <input type="radio" id="menu<?php echo $val['id']; ?>" name="menu" value="<?php echo $val['id']; ?>" class="js-select-menu" data-menuid="<?php echo $val['id']; ?>"><?php echo $val['menu_name']; ?>
+                    <input type="radio" id="menu<?php echo sanitizeHtml($val['id']); ?>" name="menu" value="<?php echo sanitizeHtml($val['id']); ?>" class="js-select-menu" data-menuid="<?php echo sanitizeHtml($val['id']); ?>"><?php echo sanitizeHtml($val['menu_name']); ?>
                   </td>
                   <td class="shop-btn">
                     <button class="detail-btn">詳細</button>
                   </td>
-                  <label for="menu<?php echo $val['id']; ?>" class="shop-area"></label>
+                  <label for="menu<?php echo sanitizeHtml($val['id']); ?>" class="shop-area"></label>
                 </tr>
               </tbody>
             </table>

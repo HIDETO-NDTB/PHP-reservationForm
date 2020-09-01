@@ -336,6 +336,20 @@ function getDataDate($day, $time)
 }
 
 // ====================================
+// サニタイズ
+// ====================================
+function sanitizeHtml($str)
+{
+    $rst = htmlspecialchars($str);
+    return $rst;
+}
+//function sanitizeJs($str)
+//{
+//    $rst = json_encode($str);
+//    return $rst;
+//}
+
+// ====================================
 // 独自function
 // ====================================
 
